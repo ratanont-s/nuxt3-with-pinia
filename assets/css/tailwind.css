@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply bg-dark;
+}
+
+.wrapper{
+    @apply my-8 max-w-5xl mx-auto;
+}
+
+.card{
+    @apply bg-white shadow-xl p-4 h-full;
+}
+
+.btn{
+    @apply bg-secondary py-1 px-2 text-lg transition hover:bg-yellow-400;
+}
